@@ -9,7 +9,6 @@
 
  body {
     max-width: 1440px;
-    color: #fff;
     font-family: 'Open Sans', sans-serif;
  }
 
@@ -63,7 +62,7 @@
     margin-top: 150px;
  }
 
- .timetable {
+ .timetable-turn {
     position: absolute;
     top: 462px;
     left: -40px;
@@ -100,7 +99,7 @@
     color: #FFFFFF;
  }
 
- .main-line {
+ .line {
     width: 80px;
     height: 5.11px;
     margin: 0 auto;
@@ -149,7 +148,6 @@
     height: 60px;
     border-radius: 100%;
     background: #FFFFFF;
-    font-family: Font Awesome 5 Free;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
@@ -163,6 +161,7 @@
 
  .down-btn:hover {
     background: #E8C300;
+    border: none;
  }
 
 
@@ -174,4 +173,301 @@
     height: 220px;
     top: 340px;
     right: 80px;
+ }
+
+ .about__us {
+    padding: 100px 80px 100px 80px;
+ }
+
+ .container {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .abo-us-left {
+    width: 600px;
+    height: 475px;
+ }
+
+ .abo-us-topic {
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+ }
+
+ .about-line {
+    margin-top: 10px;
+ }
+
+ .paragraf {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+ }
+
+ .paragraf>span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+
+ }
+
+ .abo-us-right {
+    width: 600px;
+    height: 475px;
+
+ }
+
+ .about-img {
+    width: 100%;
+ }
+
+ /* OUR TEAM */
+ .our-team {
+    padding: 100px 80px 100px 80px;
+    background: url(./img/our-team.jpg);
+    background-size: cover;
+ }
+
+ .naming {
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+ }
+
+ .our-team-left {
+    width: 588px;
+    height: 475px;
+ }
+
+ .our-team-img {
+    width: 100%;
+ }
+
+ .our-team-right {
+    width: 600px;
+    height: 385px;
+ }
+
+ .white-topic {
+    color: #fff;
+ }
+
+ .white-paragraf {
+    color: rgba(255, 255, 255, 0.7);
+ }
+
+ .white-paragraf>span {
+    color: #fff;
+ }
+
+ /* BOOKING */
+
+ .booking {
+    padding: 100px 80px 100px 80px;
+ }
+
+ .form-left {
+    width: 575px;
+    min-height: 220px;
+ }
+
+ .our-team-topic {
+    color: #000;
+ }
+
+ .form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+ }
+
+ .form-left>input {
+    margin: 5px;
+    padding: 10px;
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+ }
+
+ .form-right>input {
+    margin: 5px;
+    padding: 10px;
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+ }
+
+ .booking-btn {
+    width: 570px;
+    height: 60px;
+    background: #E8C300;
+    border-radius: 5px;
+ }
+
+ .booking-right {
+    width: 588px;
+    height: 475px;
+ }
+
+ .booking-img {
+    width: 100%;
+ }
+
+ .timetable-no-turn {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5);
+ }
+
+ .timetable-no-turn>span {
+    font-weight: bold;
+ }
+
+ /* Dishes */
+
+ .dishes {
+    min-height: 675px;
+    padding: 100px 80px 100px 80px;
+    background: url(./img/dishes-bg.jpg);
+    background-size: cover;
+ }
+
+ .container-slider {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .left-slider {
+    width: 600px;
+    height: 475px;
+ }
+
+ .slider-img {
+    width: 100%;
+ }
+
+ .right-slider {
+    width: 600px;
+    height: 241px;
+ }
+
+ .topic-slider {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .line-slider {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 65px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+ }
+
+ .paragraf-slider {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: flex-end;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+ }
+
+ .paragraf-slider>span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+ }
+
+
+
+ /* SLIDER */
+ .slick-list {
+    overflow: hidden;
+ }
+
+ .slick-track {
+    display: flex;
+    align-items: flex-start;
+ }
+
+ .slider {
+    position: relative;
+    padding: 0 50px;
+ }
+
+ .slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0 0 0;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+ }
+
+ .slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url(./icons/left-arrow.png) 0 0 / 100% no-repeat;
+    border: none;
+ }
+
+ .slider .slick-arrow.slick-next {
+    right: 0;
+    background: url(./icons/right-arrow.png) 0 0 / 100% no-repeat;
+    border: none;
+ }
+
+ .slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .slider .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+ }
+
+ .slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+ }
+
+ .slider .slick-dots li.slick-active button {
+    background-color: #ff9800;
+    border: none;
  }
