@@ -17,23 +17,23 @@
 
 <body>
 
-   <header>
+   <header id="home-link">
       <div class="navigation">
          <nav>
             <ul class="left__links">
-               <a href="">HOME</a>
-               <a href="">ABOUT</a>
-               <a href="">TEAM</a>
-               <a href="">BOOKING</a>
+               <a href="#home-link">HOME</a>
+               <a href="#about-link">ABOUT</a>
+               <a href="#team-link">TEAM</a>
+               <a href="#booking-link">BOOKING</a>
             </ul>
          </nav>
          <img src="./img/logo.svg" alt="Logo-restaurant">
          <nav>
             <ul class="right__links">
-               <a href="">MENU</a>
-               <a href="">GALERIE</a>
-               <a href="">EVENTS</a>
-               <a href="">CONTACT</a>
+               <a href="#menu-link">MENU</a>
+               <a href="#galarie-link">GALERIE</a>
+               <a href="#events-link">EVENTS</a>
+               <a href="#contact_link">CONTACT</a>
             </ul>
          </nav>
       </div>
@@ -58,7 +58,7 @@
 
    </header>
 
-   <section class="about__us">
+   <section id="about-link" class="about__us">
       <div class="container">
          <div class="abo-us-left">
             <div class="abo-us-topic topic">about us</div>
@@ -81,7 +81,7 @@
       </div>
    </section>
 
-   <section class="our-team">
+   <section id="team-link" class="our-team">
       <div class="naming">OUR TEAM</div>
       <div class="container">
          <div class="our-team-left">
@@ -104,7 +104,7 @@
          </div>
       </div>
    </section>
-   <section class="booking">
+   <section id="booking-link" class="booking">
       <div class="container">
          <div class="form-left">
             <div class="abo-us-topic white-topic our-team-topic">book a table</div>
@@ -132,7 +132,7 @@
             637/+40 726 458 782</span></div>
    </section>
 
-   <section class="dishes">
+   <section id="galarie-link" class="dishes">
       <div class="naming">specialties</div>
       <div class="slider">
          <div class="slider-item">
@@ -188,163 +188,210 @@
          </div>
       </div>
    </section>
-   <section class="menu">
+   <section id="menu-link" class="menu">
       <div class="menu-topic">DELICIOUS MENU</div>
       <div class="line-menu"></div>
       <div class="menu-paragraf">You will find the best dishes for yourself.We always have very tasty food.</div>
-      <div class="content">
-         <div class="tabs">
-            <nav class="tabs-items">
-               <a href="#tab-01" class="tabs-item">Soups</a>
-               <a href="#tab-02" class="tabs-item">Pizza</a>
-               <a href="#tab-03" class="tabs-item">Pasta</a>
-               <a href="#tab-04" class="tabs-item">Desert</a>
-               <a href="#tab-05" class="tabs-item">Wine</a>
-               <a href="#tab-06" class="tabs-item">Beer</a>
-               <a href="#tab-07" class="tabs-item">Drinks</a>
-            </nav>
+      <div class="tabs-block">
+         <div class="tab-title-items">
+            <div class="tab-title-item tab-active">SOUPE</div>
+            <div class="tab-title-item">PIZZA</div>
+            <div class="tab-title-item">PASTA</div>
+            <div class="tab-title-item">DESERT</div>
+            <div class="tab-title-item">WINE</div>
+            <div class="tab-title-item">BEER</div>
+            <div class="tab-title-item">DRINKS</div>
          </div>
-         <div class="tabs-body">
-            <div id="tab-01" class="tabs-block">
-               <div class="container">
-                  <div class="left-menu">
-                     <div class="soups">Borsch with ribs<span>25$</span></div>
-                     <div class="soups">Borsch with mushrooms<span>20$</span></div>
-                     <div class="soups">Borsch with meat<span>30$</span></div>
-                  </div>
-                  <div class="center-menu">
-                     <div class="soups">Mashed-spinach soup<span>20$</span></div>
-                     <div class="soups">Uha soup<span>35$</span></div>
-                     <div class="soups">Padua chicken soup<span>30$</span></div>
-                  </div>
-                  <div class="right-menu">
-                     <div class="soups">Cream soup <span>40$</span></div>
-                     <div class="soups">Tom Yam Thale<span>55$</span></div>
-                     <div class="soups">Miso soup<span>20$</span></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div id="tab-02" class="tabs-block">
-            <div class="container">
+         <div class="tab-container">
+            <div class="tab-content">
                <div class="left-menu">
-                  <div class="pizza">TEXAS BBQ<span>25$</span></div>
-                  <div class="pizza">CREMOZZA BBQ<span>25$</span></div>
-                  <div class="pizza">MARGHERITA<span>20$</span></div>
+                  <div class="text-menu">Borsch with ribs<span>25$</span></div>
+                  <div class="text-menu">Borsch with mushrooms<span>20$</span></div>
+                  <div class="text-menu">Borsch with meat<span>30$</span></div>
                </div>
                <div class="center-menu">
-                  <div class="pizza">PROSCIUTTO FUNGHI<span>20$</span></div>
-                  <div class="pizza">SALAMI PASSION<span>35$</span></div>
-                  <div class="pizza">HAWAIIAN<span>30$</span></div>
+                  <div class="text-menu">Mashed-spinach soup<span>20$</span></div>
+                  <div class="text-menu">Uha soup<span>35$</span></div>
+                  <div class="text-menu">Padua chicken soup<span>30$</span></div>
                </div>
                <div class="right-menu">
-                  <div class="pizza">4 FORMAGGI<span>40$</span></div>
-                  <div class="pizza">4 FORMAGGI BIANCA<span>50$</span></div>
-                  <div class="pizza">OVER CHEESE<span>20$</span></div>
+                  <div class="text-menu">Cream soup <span>40$</span></div>
+                  <div class="text-menu">Tom Yam Thale<span>55$</span></div>
+                  <div class="text-menu">Miso soup<span>20$</span></div>
                </div>
             </div>
-         </div>
 
-         <div id="tab-03" class="tabs-block">
-            <div class="container">
+            <div class="tab-content">
                <div class="left-menu">
-                  <div class="pasta">Spaghetti Carbonara<span>25$</span></div>
-                  <div class="pasta">Tagliatelle with turkey<span>35$</span></div>
-                  <div class="pasta">Cheese Pasta<span>25$</span></div>
+                  <div class="text-menu">TEXAS BBQ<span>25$</span></div>
+                  <div class="text-menu">CREMOZZA BBQ<span>25$</span></div>
+                  <div class="text-menu">MARGHERITA<span>20$</span></div>
                </div>
                <div class="center-menu">
-                  <div class="pasta">Seafood Pasta<span>40$</span></div>
-                  <div class="pasta">Vegetables Pasta<span>35$</span></div>
-                  <div class="pasta">Tomato Pasta<span>30$</span></div>
+                  <div class="text-menu">PROSCIUTTO FUNGHI<span>20$</span></div>
+                  <div class="text-menu">SALAMI PASSION<span>35$</span></div>
+                  <div class="text-menu">HAWAIIAN<span>30$</span></div>
                </div>
                <div class="right-menu">
-                  <div class="pasta">Double Cheese Pasta<span>40$</span></div>
-                  <div class="pasta">Lamb Pasta<span>50$</span></div>
-                  <div class="pasta">Shark Pasta<span>120$</span></div>
+                  <div class="text-menu">4 FORMAGGI<span>40$</span></div>
+                  <div class="text-menu">4 FORMAGGI BIANCA<span>50$</span></div>
+                  <div class="text-menu">OVER CHEESE<span>20$</span></div>
+               </div>
+            </div>
+            <div class="tab-content">
+               <div class="left-menu">
+                  <div class="text-menu">Spaghetti Carbonara<span>25$</span></div>
+                  <div class="text-menu">Tagliatelle with turkey<span>35$</span></div>
+                  <div class="text-menu">Cheese Pasta<span>25$</span></div>
+               </div>
+               <div class="center-menu">
+                  <div class="text-menu">Seafood Pasta<span>40$</span></div>
+                  <div class="text-menu">Vegetables Pasta<span>35$</span></div>
+                  <div class="text-menu">Tomato Pasta<span>30$</span></div>
+               </div>
+               <div class="right-menu">
+                  <div class="text-menu">Double Cheese Pasta<span>40$</span></div>
+                  <div class="text-menu">Lamb Pasta<span>50$</span></div>
+                  <div class="text-menu">Shark Pasta<span>120$</span></div>
+               </div>
+            </div>
+            <div class="tab-content">
+               <div class="left-menu">
+                  <div class="text-menu">Napoleon cake<span>20$</span></div>
+                  <div class="text-menu">Homemade honey cake<span>25$</span></div>
+                  <div class="text-menu">Assortment of eclairs<span>20$</span></div>
+               </div>
+               <div class="center-menu">
+                  <div class="text-menu">A fruit roll of your choice<span>20$</span></div>
+                  <div class="text-menu">Chia Mango Pudding<span>25$</span></div>
+                  <div class="text-menu">Salted caramel cake<span>20$</span></div>
+               </div>
+               <div class="right-menu">
+                  <div class="text-menu">Creme Brulee<span>20$</span></div>
+                  <div class="text-menu">Panacota<span>25$</span></div>
+                  <div class="text-menu">Ice Cream<span>10$</span></div>
+               </div>
+            </div>
+            <div class="tab-content">
+               <div class="left-menu">
+                  <div class="text-menu">Bin 707 Cabernet Sauvignon<span>210$</span></div>
+                  <div class="text-menu">Billecart-Salmon<span>230$</span></div>
+                  <div class="text-menu">Calon-Ségur(Château)<span>340$</span></div>
+               </div>
+               <div class="center-menu">
+                  <div class="text-menu">Cheval Blanc(Château)<span>310$</span></div>
+                  <div class="text-menu">Cristal(Louis Roederer)<span>210$</span></div>
+                  <div class="text-menu">Cos d’Estournel(Château)<span>310$</span></div>
+               </div>
+               <div class="right-menu">
+                  <div class="text-menu">Dom Pérignon<span>410$</span></div>
+                  <div class="text-menu">L’Evangile(Château)<span>310$</span></div>
+                  <div class="text-menu">Gaja Barbaresco DOCG<span>410$</span></div>
+               </div>
+            </div>
+            <div class="tab-content">
+               <div class="left-menu">
+                  <div class="text-menu">Hoegaarden Witbier<span>5$</span></div>
+                  <div class="text-menu">Corona<span>6$</span></div>
+                  <div class="text-menu">Heineken<span>5$</span></div>
+               </div>
+               <div class="center-menu">
+                  <div class="text-menu">San Miguel<span>6$</span></div>
+                  <div class="text-menu">Guinness<span>5$</span></div>
+                  <div class="text-menu">Samuel Adams<span>6$</span></div>
+               </div>
+               <div class="right-menu">
+                  <div class="text-menu">Stella Artois<span>5$</span></div>
+                  <div class="text-menu">Budweiser<span>5$</span></div>
+                  <div class="text-menu">Dos Equis<span>5$</span></div>
+               </div>
+            </div>
+            <div class="tab-content">
+               <div class="left-menu">
+                  <div class="text-menu">Coffee<span>5$</span></div>
+                  <div class="text-menu">Lemonade<span>3$</span></div>
+                  <div class="text-menu">Iced tea<span>4$</span></div>
+               </div>
+               <div class="center-menu">
+                  <div class="text-menu">Hot chocolate<span>5$</span></div>
+                  <div class="text-menu">Juice<span>3$</span></div>
+                  <div class="text-menu">Milkshake<span>5$</span></div>
+               </div>
+               <div class="right-menu">
+                  <div class="text-menu">Water<span>3$</span></div>
+                  <div class="text-menu">Green tea<span>3$</span></div>
+                  <div class="text-menu">Smoothie<span>15$</span></div>
                </div>
             </div>
          </div>
-         <div id="tab-04" class="tabs-block">
-            <div class="container">
-               <div class="left-menu">
-                  <div class="desert">Napoleon cake<span>20$</span></div>
-                  <div class="desert">Homemade honey cake<span>25$</span></div>
-                  <div class="desert">Assortment of eclairs<span>20$</span></div>
-               </div>
-               <div class="center-menu">
-                  <div class="desert">A fruit roll of your choice<span>20$</span></div>
-                  <div class="desert">Chia Mango Pudding<span>25$</span></div>
-                  <div class="desert">Salted caramel cake<span>20$</span></div>
-               </div>
-               <div class="right-menu">
-                  <div class="desert">Creme Brulee<span>20$</span></div>
-                  <div class="desert">Panacota<span>25$</span></div>
-                  <div class="desert">Ice Cream<span>10$</span></div>
-               </div>
-            </div>
-         </div>
-         <div id="tab-05" class="tabs-block">
-            <div class="container">
-               <div class="left-menu">
-                  <div class="wine">Bin 707 Cabernet Sauvignon<span>210$</span></div>
-                  <div class="wine">Billecart-Salmon<span>230$</span></div>
-                  <div class="wine">Calon-Ségur(Château)<span>340$</span></div>
-               </div>
-               <div class="center-menu">
-                  <div class="wine">Cheval Blanc(Château)<span>310$</span></div>
-                  <div class="wine">Cristal(Louis Roederer)<span>210$</span></div>
-                  <div class="wine">Cos d’Estournel(Château)<span>310$</span></div>
-               </div>
-               <div class="right-menu">
-                  <div class="wine">Dom Pérignon<span>410$</span></div>
-                  <div class="wine">L’Evangile(Château)<span>310$</span></div>
-                  <div class="wine">Gaja Barbaresco DOCG<span>410$</span></div>
-               </div>
-            </div>
-         </div>
-         <div id="tab-06" class="tabs-block">
-            <div class="container">
-               <div class="left-menu">
-                  <div class="beer">Hoegaarden Witbier<span>5$</span></div>
-                  <div class="beer">Corona<span>6$</span></div>
-                  <div class="beer">Heineken<span>5$</span></div>
-               </div>
-               <div class="center-menu">
-                  <div class="beer">San Miguel<span>6$</span></div>
-                  <div class="beer">Guinness<span>5$</span></div>
-                  <div class="beer">Samuel Adams<span>6$</span></div>
-               </div>
-               <div class="right-menu">
-                  <div class="beer">Stella Artois<span>5$</span></div>
-                  <div class="beer">Budweiser<span>5$</span></div>
-                  <div class="beer">Dos Equis<span>5$</span></div>
-               </div>
-            </div>
-         </div>
-         <div id="tab-07" class="tabs-block">
-            <div class="container">
-               <div class="left-menu">
-                  <div class="drinks">Coffee<span>5$</span></div>
-                  <div class="drinks">Lemonade<span>3$</span></div>
-                  <div class="drinks">Iced tea<span>4$</span></div>
-               </div>
-               <div class="center-menu">
-                  <div class="drinks">Hot chocolate<span>5$</span></div>
-                  <div class="drinks">Juice<span>3$</span></div>
-                  <div class="drinks">Milkshake<span>5$</span></div>
-               </div>
-               <div class="right-menu">
-                  <div class="drinks">Water<span>3$</span></div>
-                  <div class="drinks">Green tea<span>3$</span></div>
-                  <div class="drinks">Smoothie<span>15$</span></div>
-               </div>
-            </div>
-         </div>
-
-      </div>
-      </div>
       </div>
    </section>
+   <section id="events-link" class="event">
+      <div class="event-topic">PRIVATE EVENTS</div>
+      <div class="container">
+         <div class="left-event">
+            <img class="event-img" src="./img/event-1.png" alt="">
+         </div>
+         <div class="right-event">
+            <img class="event-img" src="./img/event-2.png" alt="">
+         </div>
+      </div>
+      <div class="contact-phone">For private events please call: <span>+40 729 131 637/+40 726 458 782</span> or use the
+         contact
+         form.</div>
+   </section>
+   <section class="ivent-photos">
+      <img class="ivent-ph" src="./img/Rectangle1.png" alt="">
+      <img class="ivent-ph" src="./img/Rectangle2.png" alt="">
+      <img class="ivent-ph" src="./img/Rectangle3.png" alt="">
+      <img class="ivent-ph" src="./img/Rectangle4.png" alt="">
+   </section>
+   <section id="contact-link" class="contact">
+      <div class="contact-topic">CONTACT</div>
+      <div class="contact-line"></div>
+      <div class="contact-paragraf">Please leave your details and we will call you back.</div>
+      <div class="form-contact">
+         <div class="up-form">
+            <input class="inf-form" placeholder="Name" type="text">
+            <input class="inf-form" placeholder="Email" type="text">
+            <input class="inf-form" placeholder="Phone" type="text">
+         </div>
+         <textarea class="form-message" placeholder="Message" name="Message" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div class="phone-and-btn">
+         <div class="addres-ph-email">
+            <div class="addres-1">
+               <div class="icon">
+                  <img src="./icons/location.png" alt="">
+               </div>
+               <div class="adress-inf">5th London Boulevard, U.K.</div>
+            </div>
+            <div class="phon">
+               <div class="icon">
+                  <img src="./icons/phone.png" alt="">
+               </div>
+               <div class="adress-inf">+40 729 131 637/+40 726 458 782</div>
+            </div>
+            <div class="mail">
+               <div class="icon">
+                  <img src="./icons/letter.png" alt="">
+               </div>
+               <div class="adress-inf">office@mindblister.com</div>
+            </div>
+         </div>
+         <button class="contact-btn">SEND MESSAGE</button>
+      </div>
+   </section>
+   <section class="map">
+      <div class="container-map">
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.4635459213273!2d-0.15184768416228311!3d51.61471731067175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761969b4a4c7e9%3A0x626a50ee1526059b!2sBoulevard!5e0!3m2!1sru!2spl!4v1617266677961!5m2!1sru!2spl"
+            width="100%" height="575" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+   </section>
+   <footer>
+      <div class="text-footer">© Copyright by DimaWiwat 2021</div>
+   </footer>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script src="slick.min.js"></script>
    <script src="app.js"></script>
