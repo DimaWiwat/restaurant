@@ -12,6 +12,20 @@
     font-family: 'Open Sans', sans-serif;
  }
 
+ .up {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 30;
+    top: 850px;
+    right: 30px;
+ }
+
+ .up-img {
+    width: 100%;
+
+ }
+
  header {
     position: relative;
     min-height: 800px;
@@ -92,9 +106,8 @@
     width: 998px;
     height: 139px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 96px;
-    line-height: 0px;
     font-family: 'Rajdhani', sans-serif;
     align-items: center;
     text-align: center;
