@@ -89,6 +89,9 @@
  }
 
  .main-topic {
+    width: 998px;
+    height: 139px;
+    margin: 0 auto;
     margin-top: 50px;
     font-size: 96px;
     line-height: 0px;
@@ -103,7 +106,6 @@
     width: 80px;
     height: 5.11px;
     margin: 0 auto;
-    margin-top: 100px;
     background: #E8C300;
     border-radius: 50px;
  }
@@ -304,6 +306,7 @@
     height: 60px;
     background: #E5E5E5;
     border-radius: 5px;
+    border: none;
  }
 
  .form-right>input {
@@ -313,6 +316,7 @@
     height: 60px;
     background: #E5E5E5;
     border-radius: 5px;
+    border: none;
  }
 
  .booking-btn {
@@ -320,6 +324,7 @@
     height: 60px;
     background: #E8C300;
     border-radius: 5px;
+    border: none;
  }
 
  .booking-right {
