@@ -471,3 +471,204 @@
     background-color: #ff9800;
     border: none;
  }
+
+
+ /* MENU */
+
+ .menu {
+    width: 1260px;
+    height: 720px;
+    padding: 100px 80px 100px 80px;
+ }
+
+ .menu-topic {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+ }
+
+ .line-menu {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 62px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+ }
+
+ .menu-paragraf {
+    width: 565px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+ }
+
+ /* Tabs */
+
+ .content {
+    padding: 50px 0;
+    max-width: 900px;
+    margin: 0 auto;
+ }
+
+ .tabs {
+    margin-bottom: 50px;
+ }
+ .tabs-items {
+    display: flex;
+ }
+
+ .tabs-item {
+    flex: 58.333%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: #000;
+    font-weight: bold;
+ }
+
+ .tabs-block {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    display: none;
+ }
+
+ .tabs-block:nth-child(1) {
+    background-color: #635a2d;
+    ;
+ }
+
+ .tabs-block:nth-child(2) {
+    background-color: #f55c5c;
+ }
+
+ .tabs-block:nth-child(3) {
+    background-color: #1e4e25;
+ }
+
+ .tabs-block:nth-child(4) {
+    background-color: #282f74;
+ }
+
+ .tabs-block:nth-child(5) {
+    background-color: #184958;
+ }
+
+ .tabs-block:nth-child(6) {
+    background-color: #4d1f39;
+ }
+
+ .tabs-block:nth-child(7) {
+    background-color: #57562a;
+ }
+ .tabs-block:nth-child(8) {
+   background-color: #491212;
+}
+
+ .tabs-block:target {
+    display: block;
+ }
+
+ .soups {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .soups>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ .pizza {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .pizza>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ .pasta {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .pasta>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ .desert {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .desert>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ .wine {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .wine>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ .beer {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .beer>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ .drinks {
+    padding: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    color: #fff;
+ }
+
+ .drinks>span {
+    font-weight: bold;
+    padding-left: 15px;
+ }
+
+ 
