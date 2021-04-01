@@ -92,11 +92,11 @@ modal.addEventListener('click', function(e) {
 
 
 
-function showModalByScroll() {
-   if (window.pageYOffset > document.documentElement.scrollHeight/2) {
-       openModal();
-       window.removeEventListener("scroll", showModalByScroll)
-   }
-}
+// function showModalByScroll() {
+//    if (window.pageYOffset > document.documentElement.scrollHeight/2) {
+//        openModal();
+//        window.removeEventListener("scroll", showModalByScroll)
+//    }
+// }
 
-window.addEventListener("scroll",showModalByScroll)
+// window.addEventListener("scroll",showModalByScroll)
