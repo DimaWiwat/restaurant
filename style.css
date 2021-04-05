@@ -8,7 +8,6 @@
  }
 
  body {
-    max-width: 1440px;
     font-family: 'Open Sans', sans-serif;
  }
 
@@ -28,18 +27,29 @@
 
  header {
     position: relative;
-    min-height: 800px;
+    max-height: 80%;
     background: url(./img/header-bg.jpg) no-repeat;
     background-size: cover;
+
+ }
+
+ .container {
+    max-width: 1440px;
     padding: 40px 80px 80px 80px;
  }
 
  .navigation {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+ }
+
+ .left__links {
+    width: 100%;
  }
 
  .left__links>a {
+    width: 25%;
     margin-right: 50px;
     text-decoration: none;
     font-weight: bold;
@@ -49,6 +59,7 @@
  }
 
  .right__links>a {
+    width: 25%;
     margin-left: 50px;
     text-decoration: none;
     font-weight: bold;
@@ -96,8 +107,7 @@
  }
 
  .main-topic {
-    width: 998px;
-    height: 139px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     font-size: 96px;
@@ -184,18 +194,13 @@
     right: 80px;
  }
 
- .about__us {
-    padding: 100px 80px 100px 80px;
- }
-
- .container {
+ .container-flex {
     display: flex;
     justify-content: space-between;
  }
 
  .abo-us-left {
-    width: 600px;
-    height: 475px;
+    width: 100%;
  }
 
  .abo-us-topic {
@@ -243,7 +248,6 @@
 
  /* OUR TEAM */
  .our-team {
-    padding: 100px 80px 100px 80px;
     background: url(./img/our-team.jpg);
     background-size: cover;
  }
@@ -286,11 +290,6 @@
  }
 
  /* BOOKING */
-
- .booking {
-    padding: 100px 80px 100px 80px;
- }
-
  .form-left {
     width: 575px;
     min-height: 220px;
@@ -360,7 +359,6 @@
 
  .dishes {
     min-height: 675px;
-    padding: 100px 80px 100px 80px;
     background: url(./img/dishes-bg.jpg);
     background-size: cover;
  }
@@ -534,12 +532,6 @@
 
  /* MENU */
 
- .menu {
-    width: 1260px;
-    height: 690px;
-    padding: 100px 80px 100px 80px;
- }
-
  .menu-topic {
     font-family: 'Rajdhani', sans-serif;
     font-size: 36px;
@@ -602,13 +594,11 @@
  }
 
  .left-event {
-    width: 600px;
-    height: 475px;
+    width: 100%;
  }
 
  .right-event {
-    width: 600px;
-    height: 475px;
+    width: 100%;
  }
 
  .event-img {
@@ -634,15 +624,10 @@
  }
 
  .ivent-ph {
-    width: 360px;
-    height: 310px;
+    width: 25%;
  }
 
  /* CONTACT */
-
- .contact {
-    padding: 100px 80px 100px 80px;
- }
 
  .contact-topic {
     font-family: 'Rajdhani', sans-serif;
@@ -695,7 +680,7 @@
  }
 
  .form-message {
-    width: 1093px;
+    width: 99%;
     height: 120px;
     margin-top: 10px;
     margin-left: 10px;
@@ -876,4 +861,86 @@
 
  .show {
     display: block;
+ }
+
+
+ @media (max-width:1200px) {
+    .container {
+       max-width: 970px;
+    }
+
+    .left__links>a {
+       margin-right: 20px;
+       font-size: 14px;
+    }
+
+    .right__links>a {
+       margin-left: 20px;
+       font-size: 14px;
+    }
+
+    .main-right {
+       right: 300px;
+       top: 340px;
+    }
+
+    .main-topic {
+       width: 100%;
+    }
+
+    .contact-btn {
+       width: 30%;
+    }
+
+ }
+
+ @media (max-width:992px) {
+    .container {
+       max-width: 750px;
+    }
+
+    .container-flex {
+       display: block;
+    }
+
+    .left__links>a {
+       margin-right: 7px;
+       font-size: 12px;
+    }
+
+    .right__links>a {
+       margin-left: 7px;
+       font-size: 12px;
+    }
+
+    .main-right {
+       right: 322px;
+       top: 340px;
+    }
+
+    .main-topic {
+       font-size: 75px;
+    }
+
+    .container-flexy {
+       display: flex;
+    }
+
+    .text-menu {
+       font-size: 13px;
+    }
+
+    .adress-inf {
+       font-size: 8px;
+    }
+ }
+
+ @media (max-width:767px) {
+    .container {
+       max-width: none;
+    }
+
+    .main-right {
+       right: 75px;
+    }
  }
