@@ -26,7 +26,7 @@
  }
 
  header {
-    position: relative;
+
     max-height: 80%;
     background: url(./img/header-bg.jpg) no-repeat;
     background-size: cover;
@@ -35,7 +35,16 @@
 
  .container {
     max-width: 1440px;
+    margin: 0 auto;
     padding: 40px 80px 80px 80px;
+
+ }
+
+ .container-rel {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 80px 80px 80px;
+    position: relative;
  }
 
  .navigation {
@@ -82,18 +91,14 @@
 
  .timetable-turn {
     position: absolute;
-    top: 462px;
-    left: -40px;
+    top: 160px;
+    left: 0;
     font-weight: bold;
     font-size: 12px;
     line-height: 12px;
     text-align: center;
     color: #fff;
     transform: rotate(-90deg);
- }
-
- .in-the-center {
-    margin-top: 150px;
  }
 
  .main-title {
@@ -189,10 +194,11 @@
     position: absolute;
     flex-direction: column;
     justify-content: space-between;
-    height: 220px;
-    top: 340px;
+    min-height: 220px;
+    top: 41px;
     right: 80px;
  }
+
 
  .container-flex {
     display: flex;
@@ -880,8 +886,8 @@
     }
 
     .main-right {
-       right: 300px;
-       top: 340px;
+       top: 41px;
+       right: 80px;
     }
 
     .main-topic {
@@ -914,8 +920,8 @@
     }
 
     .main-right {
-       right: 322px;
-       top: 340px;
+       top: 41px;
+       right: 80px;
     }
 
     .main-topic {
