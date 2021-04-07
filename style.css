@@ -16,8 +16,8 @@
     height: 30px;
     position: fixed;
     z-index: 30;
-    top: 850px;
-    right: 30px;
+    top: 90%;
+    right: 5%;
  }
 
  .up-img {
@@ -33,7 +33,20 @@
 
  }
 
+ .img-logo {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+ }
+
  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 80px 80px 80px;
+
+ }
+
+ .container-header {
     max-width: 1440px;
     margin: 0 auto;
     padding: 40px 80px 80px 80px;
@@ -47,7 +60,7 @@
     position: relative;
  }
 
- .navigation {
+ .navigation-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -55,26 +68,25 @@
 
  .left__links {
     width: 100%;
+    height: 20%;
+    display: flex;
+
+    /* align-items: center; */
+
  }
 
  .left__links>a {
-    width: 25%;
-    margin-right: 50px;
+    width: 100%;
+    /* margin-right: 50px; */
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 18px;
     color: #fff;
  }
 
- .right__links>a {
-    width: 25%;
-    margin-left: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
-    color: #fff;
+ .fierst-link {
+    padding-left: 5%;
  }
 
  .left__links>a:hover {
@@ -92,7 +104,7 @@
  .timetable-turn {
     position: absolute;
     top: 160px;
-    left: 0;
+    left: -40px;
     font-weight: bold;
     font-size: 12px;
     line-height: 12px;
@@ -798,8 +810,8 @@
  }
 
  .modal-block {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     margin: 30vh auto;
     position: relative;
     border: 1px solid grey;
@@ -817,7 +829,7 @@
     position: absolute;
     right: 10px;
     top: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
  }
@@ -827,25 +839,26 @@
  }
 
  .modal-text {
+    width: 100%;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 28px;
     color: #21243D;
  }
 
  .modal-form {
-    width: 240px;
-    height: 25px;
+    width: 80%;
+    height: 50px;
     margin-bottom: 10px;
     padding-left: 10px;
     border-radius: 5px;
  }
 
  .modal-btn-send {
-    width: 140px;
-    height: 35px;
+    width: 50%;
+    height: 50px;
     margin-top: 15px;
     text-align: center;
     border-radius: 5px;
@@ -875,14 +888,12 @@
        max-width: 970px;
     }
 
-    .left__links>a {
-       margin-right: 20px;
-       font-size: 14px;
+    .container-header {
+       max-width: 970px;
     }
 
-    .right__links>a {
-       margin-left: 20px;
-       font-size: 14px;
+    .left__links>a {
+       font-size: 16px;
     }
 
     .main-right {
@@ -905,18 +916,20 @@
        max-width: 750px;
     }
 
+    .container-header {
+       max-width: 750px;
+    }
+
     .container-flex {
        display: block;
     }
 
     .left__links>a {
-       margin-right: 7px;
-       font-size: 12px;
+       font-size: 14px;
     }
 
-    .right__links>a {
-       margin-left: 7px;
-       font-size: 12px;
+    .fierst-link {
+       padding: 0;
     }
 
     .main-right {
@@ -925,7 +938,15 @@
     }
 
     .main-topic {
-       font-size: 75px;
+       font-size: 65px;
+    }
+
+    .main-btns {
+       width: 350px;
+    }
+
+    .main-btn {
+       width: 150px;
     }
 
     .container-flexy {
@@ -939,14 +960,151 @@
     .adress-inf {
        font-size: 8px;
     }
- }
 
- @media (max-width:767px) {
-    .container {
-       max-width: none;
+    .topic-slider {
+       font-size: 26px;
+       line-height: 20px;
+
     }
 
-    .main-right {
-       right: 75px;
+    .paragraf-slider>span {
+       font-size: 18px;
+       line-height: 20px;
+    }
+
+    .paragraf-slider {
+       font-size: 14px;
+       line-height: 18px;
+    }
+
+ }
+
+
+
+
+ @media (max-width:767px) {
+    .container-header {
+       max-width: none;
+       padding: 20px;
+       height: 140px;
+    }
+
+    .nav-mobile-menu {
+       /* position: relative; */
+       position: fixed;
+       width: 35px;
+       height: 35px;
+       top: 10%;
+       left: 90%;
+       z-index: 300;
+    }
+
+    .nav-mobile-menu span {
+       height: 4px;
+       background-color: #E8C300;
+       position: absolute;
+       left: 0;
+       right: 0;
+       transition: all 0.25s;
+       z-index: 201;
+    }
+
+    .nav-mobile-menu .active-menu {
+       background-color: #E8C300;
+    }
+
+    .nav-mobile-menu span:nth-child(1) {
+       top: 14px;
+    }
+
+    .nav-mobile-menu span:nth-child(2) {
+       top: 7px;
+    }
+
+    .nav-mobile-menu span:nth-child(3) {
+       bottom: 10px;
+    }
+
+    .hidden-menu {
+       opacity: 0;
+       visibility: hidden;
+    }
+
+    .navigation {
+       padding-top: 0;
+       width: 100%;
+       height: 100vh;
+       position: fixed;
+       transform: translate(ty, 150%);
+       transition: all 0.10s ease-in-out;
+       top: 0px;
+       left: 0px;
+    }
+
+    .nav-mobile-menu.active-menu span:nth-child(1) {
+       top: 7px;
+       transform: rotate(45deg);
+    }
+
+    .nav-mobile-menu.active-menu span:nth-child(2) {
+       transform: rotate(-45deg);
+    }
+
+    .nav-mobile-menu.active-menu span:nth-child(3) {
+       bottom: 3px;
+       transform: scale(0);
+    }
+
+    .navigation.active-menu {
+       width: 100vw;
+       height: 100vh;
+       opacity: 1;
+       visibility: visible;
+       transform: translate(ty, 0);
+       background: #000;
+       z-index: 100;
+       top: 0px;
+       left: 0px;
+    }
+
+    .left__links {
+       width: 10%;
+       margin: 0 auto;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       height: 100%;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .left__links>a {
+       font-size: 14px;
+    }
+
+    .fierst-link {
+       padding: 0;
+    }
+
+    .img-logo {
+       position: absolute;
+       top: 25%;
+       left: 5%;
+    }
+
+    .abo-us-right {
+       width: 70%;
+       height: 280px;
+    }
+
+    .paragraf>span {
+       font-size: 14px;
+       line-height: 22px;
+    }
+
+    .paragraf {
+       font-size: 12px;
+       line-height: 20px;
     }
  }
