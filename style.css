@@ -388,7 +388,6 @@
 
  .left-slider {
     width: 600px;
-    height: 475px;
  }
 
  .slider-img {
@@ -982,7 +981,7 @@
 
 
 
- @media (max-width:767px) {
+ @media (max-width:768px) {
     .container-header {
        max-width: none;
        padding: 20px;
@@ -1106,5 +1105,364 @@
     .paragraf {
        font-size: 12px;
        line-height: 20px;
+    }
+
+    .our-team-left {
+       width: 400px;
+       height: 320px;
+    }
+
+    .parag-our-team {
+       width: 70%;
+       margin: 0 auto;
+       margin-top: 20px;
+    }
+
+    .abo-us-topic {
+       font-size: 28px;
+       line-height: 24px;
+    }
+
+    .form-left-container {
+       width: 80%;
+       min-height: 185px;
+
+    }
+
+    .form-left {
+       min-height: 180px;
+    }
+
+    .form-left>input {
+       width: 220px;
+       height: 50px;
+    }
+
+    .form-right>input {
+       width: 220px;
+       height: 50px;
+    }
+
+    .booking-btn {
+       width: 453px;
+       height: 54px;
+       margin: 5px;
+    }
+
+    .booking-right {
+       width: 460px;
+       height: 360px;
+    }
+ }
+
+ @media (max-width:425px) {
+
+    .container {
+       margin: 0 auto;
+       padding: 40px 20px 40px 20px;
+    }
+
+    .container-rel {
+       margin: 0 auto;
+       padding: 40px 20px 40px 20px;
+    }
+
+
+    .img-logo {
+       width: 120px;
+       height: 120px;
+    }
+
+    .nav-mobile-menu {
+       left: 85%;
+    }
+
+    .timetable-turn {
+       left: -100px;
+    }
+
+    .main-right {
+       right: 20px;
+    }
+
+    .main-title {
+       font-size: 10px;
+       line-height: 6px;
+    }
+
+    .main-topic {
+       font-size: 45px;
+       line-height: 39px;
+    }
+
+    .main-btns {
+       width: 265px;
+       margin-top: 20px;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+    }
+
+    .main-btn {
+       width: 130px;
+       height: 45px;
+       font-size: 10px;
+       margin-top: 10px;
+    }
+
+    .down-btns {
+       margin-top: 20px;
+    }
+
+    .down-btn {
+       width: 50px;
+       height: 50px;
+    }
+
+    .paragraf>span {
+       font-size: 13px;
+       line-height: 20px;
+    }
+
+    .paragraf {
+       font-size: 11px;
+       line-height: 17px;
+    }
+
+    .abo-us-right {
+       width: 100%;
+       height: 285px;
+    }
+
+    .abo-us-topic {
+       margin: 0 auto;
+       text-align: center;
+    }
+
+
+    .our-team-left {
+       width: 100%;
+       height: 320px;
+    }
+
+    .our-team-right {
+       width: 100%;
+       height: 295px;
+    }
+
+    .paragraf>span {
+       font-size: 11px;
+       line-height: 18px;
+    }
+
+    .paragraf {
+       font-size: 9px;
+       line-height: 14px;
+    }
+
+    .form-left-container {
+       width: 100%;
+       min-height: 185px;
+    }
+
+    .form-left {
+       width: 100%;
+       min-height: 150px;
+    }
+
+    .form-right {
+       width: 100%;
+       min-height: 150px;
+    }
+
+    .form-left>input {
+       width: 180px;
+       height: 40px;
+    }
+
+    .form-right>input {
+       width: 180px;
+       height: 40px;
+       font-size: 13px;
+    }
+
+    .booking-btn {
+       width: 374px;
+       height: 40px;
+    }
+
+    .booking-right {
+       width: 340px;
+       height: 275px;
+    }
+
+    .timetable-no-turn {
+       font-size: 9px;
+       line-height: 1px;
+    }
+
+    .slider {
+       padding: 0px 33px;
+    }
+
+    .topic-slider {
+       font-size: 17px;
+       line-height: 20px;
+    }
+
+    .paragraf-slider>span {
+       font-size: 11px;
+       line-height: 10px;
+    }
+
+    .paragraf-slider {
+       font-size: 9px;
+       line-height: 12px;
+    }
+
+    .dishes {
+       min-height: 480px;
+    }
+
+    .slider {
+       height: 335px;
+    }
+
+    .paragraf-slider-2 {
+       display: none;
+    }
+
+    .container-slider {
+       height: 300px;
+    }
+
+    .menu-paragraf {
+       width: 330px;
+    }
+
+    .tabs-block {
+       max-width: 385px;
+    }
+
+    .tab-title-items {
+       padding: 0;
+    }
+
+    .tab-title-item {
+       width: 36px;
+       font-size: 7px;
+    }
+
+    .tab-content {
+       padding: 30px 5px;
+    }
+
+    .text-menu {
+       font-size: 11px;
+       line-height: 15px;
+    }
+
+    .text-menu>span {
+       font-weight: bold;
+       padding-left: 5px;
+    }
+
+    .event {
+       padding: 0;
+    }
+
+    .contact-phone {
+       font-size: 9px;
+    }
+
+    .inf-form {
+       width: 120px;
+       height: 40px;
+       margin-left: 0;
+    }
+
+    .form-message {
+       width: 100%;
+       margin-left: 0;
+    }
+
+    .addres-ph-email {
+       padding: 0 5px;
+    }
+
+    .addres-ph-email {
+       padding: 0 5px;
+    }
+
+    .addres-ph-email {
+       width: 50%;
+       display: block;
+    }
+
+    .adress-inf {
+       font-size: 10px;
+    }
+
+    .contact-btn {
+       width: 45%;
+    }
+ }
+
+ @media (max-width:375px) {
+
+    .img-logo {
+       width: 100px;
+       height: 100px;
+    }
+
+    .main-topic {
+       font-size: 40px;
+    }
+
+    .our-team-right {
+       height: 330px;
+    }
+
+    .form-left>input {
+       width: 155px;
+    }
+
+    .form-right>input {
+       width: 155px;
+    }
+
+    .booking-btn {
+       width: 323px;
+    }
+
+    .timetable-no-turn {
+       font-size: 8px;
+       line-height: 1px;
+    }
+
+    .left-slider {
+       width: 600px;
+    }
+
+    .tab-title-item {
+       width: 30px;
+       font-size: 7px;
+    }
+
+    .text-menu {
+       font-size: 9px;
+       line-height: 12px;
+    }
+
+    .inf-form {
+       width: 108px;
+    }
+
+    .addres-ph-email {
+       width: 58%;
+    }
+
+    .contact-btn {
+       width: 40%;
     }
  }
