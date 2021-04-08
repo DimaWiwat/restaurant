@@ -1467,3 +1467,71 @@
        width: 40%;
     }
  }
+
+ @media (max-width:320px) {
+
+    .nav-mobile-menu {
+       left: 85%;
+    }
+
+    .up {
+       right: 4%;
+    }
+
+    .main-title {
+       font-size: 9px;
+       line-height: 9px;
+    }
+
+    .main-topic {
+       font-size: 32px;
+    }
+
+    .our-team-right {
+       height: 390px;
+    }
+
+    .form-left>input {
+       width: 125px;
+    }
+
+    .form-right>input {
+       width: 125px;
+    }
+
+    .menu-paragraf {
+       line-height: 21px;
+    }
+
+    .tab-title-item {
+       width: 20px;
+       font-size: 4px;
+    }
+
+    .booking-btn {
+       width: 266px;
+    }
+
+    .booking-right {
+       width: 260px;
+       height: 245px;
+    }
+
+    .timetable-no-turn {
+       font-size: 12px;
+       line-height: 20px;
+    }
+
+    .menu-paragraf {
+       width: 255px;
+    }
+
+    .contact-phone {
+       font-size: 13px;
+       line-height: 17px;
+    }
+
+    .inf-form {
+       width: 90px;
+    }
+ }
