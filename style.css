@@ -1067,10 +1067,11 @@
     }
 
     .left__links {
-       width: 10%;
+       width: 12%;
+       height: 80%;
        margin: 0 auto;
-       padding-top: 20px;
-       padding-bottom: 20px;
+       padding-top: 40px;
+       padding-bottom: 80px;
        height: 100%;
        display: flex;
        justify-content: space-between;
