@@ -1168,6 +1168,29 @@
        padding: 40px 20px 40px 20px;
     }
 
+    .modal-block {
+       width: 80%;
+       height: 50%;
+       margin: 30vh auto;
+       position: relative;
+       border: 1px solid grey;
+       background-color: #fff;
+       padding: 15px;
+    }
+
+    .modal-text {
+       font-size: 20px;
+       line-height: 22px;
+    }
+
+    .modal-form {
+       width: 70%;
+       height: 40px;
+    }
+
+    .modal-btn-send {
+       height: 40px;
+    }
 
     .img-logo {
        width: 120px;
